@@ -64,25 +64,7 @@ public class Graph {
         Scanner in = new Scanner(System.in);
         int v = 6;
         Graph graph = new Graph(v);
-/*
 
-        System.out.print("Enter a Test Case: ");
-        int testCase = in.nextInt();
-        System.out.println();
-
-        for (int i = 1; i <= testCase; i++) {
-            System.out.print("How many Edge you want to input: ");
-            int noe = in.nextInt();
-            System.out.println();
-
-            for (int j = 1; j <= noe; j++) {
-
-                int x = in.nextInt();
-                int y = in.nextInt();
-
-                addEdge(x, y);
-            }
-*/
         addEdge(0, 1);
         addEdge(1, 2);
         addEdge(2, 3);
