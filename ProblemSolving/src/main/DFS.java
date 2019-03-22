@@ -1,15 +1,18 @@
 package main;
 
+import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.Stack;
 
 public class DFS {
     private  static int vertex;
     private static LinkedList<Integer> adjLinkedList[];
+    private static int[] visit;
 
     public DFS(int v) {
       this.vertex = v;
       adjLinkedList = new LinkedList[vertex];
+      visit = new int[vertex];
+        Arrays.fill(visit,0);
       for(int i = 0; i<vertex; i++){
           adjLinkedList[i] = new LinkedList<>();
       }
@@ -21,37 +24,14 @@ public class DFS {
     }
 
     public static void DFSOnAction(int source){
-        boolean[] visit = new boolean[vertex];
-        Stack<Integer> stack = new Stack<>();
-        int currentNode;
 
-        if(!visit[source]){
-            stack.push(source);
-            System.out.print(source + " ");
+        visit[source] = 1;
+        System.out.print(source + " ");
+        for(Integer x : adjLinkedList[source]){
+            if(visit[x] == 0)
+                DFSOnAction(x);
         }
-
-
-        currentNode = source;
-        visit[currentNode] = true;
-
-        while (!stack.empty()){
-            if(adjLinkedList[currentNode].size() > 0){
-                for(Integer x : adjLinkedList[currentNode]){
-                    System.out.println(x);
-                    if(!visit[x]){
-                        DFSOnAction(x);
-                    }
-
-            }
-        }else{
-                stack.pop();
-                int back = stack.peek();
-                DFSOnAction(back);
-            }
-
-        }
-
-
+        visit[source] = 2;
 
     }
 

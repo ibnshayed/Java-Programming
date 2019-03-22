@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75d1677a-01b4-4541-8153-7cd3fd01c0c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaPactices.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProblemSolving/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/BFS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/DFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProblemSolving/src/main/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/src/main/BFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProblemSolving/src/main/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/src/main/DFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProblemSolving/src/main/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/src/main/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProblemSolving/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/src/main/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+            <state relative-caret-position="341">
+              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,6 +87,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -111,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1380" />
@@ -148,7 +140,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553191815289" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553257213617" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProblemSolving" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -230,17 +222,19 @@
       <workItem from="1553088995639" duration="3935000" />
       <workItem from="1553175133944" duration="1209000" />
       <workItem from="1553181193821" duration="1722000" />
-      <workItem from="1553216390385" duration="638000" />
+      <workItem from="1553216390385" duration="847000" />
+      <workItem from="1553257071997" duration="705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10800000" />
+    <option name="totallyTimeSpent" value="11714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -257,7 +251,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.0715048" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
@@ -338,8 +332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        <state relative-caret-position="341">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
