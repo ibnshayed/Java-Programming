@@ -2,19 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75d1677a-01b4-4541-8153-7cd3fd01c0c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ProblemSolving/src/main/NGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaPactices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPactices.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPactices/Fan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPactices/Fan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPactices/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPactices/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPactices/JavaEndOfFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPactices/JavaEndOfFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaPactices/JavaLoopsI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPactices/JavaLoopsI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPactices/JavaLoopsII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPactices/JavaLoopsII.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPactices/TvChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPactices/TvChannel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPactices/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPactices/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaLoopsI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaLoopsI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProblemSolving/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/BFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/BellmanFord.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/BellmanFord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/Cylinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/Cylinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/D.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/D.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/DFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/Dijkstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/Dijkstra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/E.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/E.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/F.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/F.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/FibonaciNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/FibonaciNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/G.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/G.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/GraphForZeroOneBfs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/GraphForZeroOneBfs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/H.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/H.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/NGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/NGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/PriorityQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/PriorityQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/StronglyConnectedComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/StronglyConnectedComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/TestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/TopologicalSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/out/production/ProblemSolving/main/TopologicalSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProblemSolving/src/main/StronglyConnectedComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProblemSolving/src/main/StronglyConnectedComponent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,23 +43,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaLoopsI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="186">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/A.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaLoopsII.java">
+        <entry file="file://$PROJECT_DIR$/src/B.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="651">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <element signature="e#0#1338#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/I.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/C.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -51,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="124">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -89,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TvChannel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="961">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="62">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -118,12 +165,16 @@
         <option value="$PROJECT_DIR$/src/Fan.java" />
         <option value="$PROJECT_DIR$/src/TvChannel.java" />
         <option value="$PROJECT_DIR$/src/Graph.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/JavaLoopsI.java" />
+        <option value="$PROJECT_DIR$/src/C.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/B.java" />
+        <option value="$PROJECT_DIR$/src/I.java" />
+        <option value="$PROJECT_DIR$/src/A.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1380" />
@@ -137,6 +188,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -154,14 +206,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553441800298" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SnakeAndLadderFX-master" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553451994360" />
+    <property name="last_opened_file_path" value="G:/GitHub Solved Problem/OJSolved" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -183,30 +234,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JavaLoopsI">
-    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph" />
+  <component name="RunManager" selected="Application.I">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A" />
       <module name="JavaPactices" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaEndOfFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaEndOfFile" />
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="B" />
       <module name="JavaPactices" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaLoopsI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaLoopsI" />
+    <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C" />
       <module name="JavaPactices" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaLoopsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaLoopsII" />
+    <configuration name="I" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="I" />
       <module name="JavaPactices" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -221,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaLoopsI" />
-        <item itemvalue="Application.JavaEndOfFile" />
-        <item itemvalue="Application.Graph" />
+        <item itemvalue="Application.I" />
+        <item itemvalue="Application.B" />
+        <item itemvalue="Application.A" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.JavaLoopsII" />
+        <item itemvalue="Application.C" />
       </list>
     </recent_temporary>
   </component>
@@ -248,18 +299,21 @@
       <workItem from="1553353729775" duration="863000" />
       <workItem from="1553365864221" duration="750000" />
       <workItem from="1553367880708" duration="81000" />
-      <workItem from="1553440711098" duration="1084000" />
+      <workItem from="1553440711098" duration="9798000" />
+      <workItem from="1553488511558" duration="752000" />
+      <workItem from="1553494933342" duration="1288000" />
+      <workItem from="1553507759691" duration="327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14505000" />
+    <option name="totallyTimeSpent" value="25586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -269,7 +323,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5138593" visible="true" weight="0.4909285" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5138593" weight="0.44093567" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -277,7 +331,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.48614073" side_tool="true" weight="0.41728923" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32977587" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -317,16 +371,9 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/JavaLoopsI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaLoopsII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
+        <state relative-caret-position="354">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#0#1338#0" expanded="true" />
@@ -334,10 +381,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaLoopsI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/I.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -367,8 +445,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TvChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="961">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="62">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

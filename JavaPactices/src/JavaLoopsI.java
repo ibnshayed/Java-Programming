@@ -2,13 +2,14 @@ import java.util.Scanner;
 
 public class JavaLoopsI {
     public static void main(String[] args) {
-       /* Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         int n = in.nextInt();
 
 
         for(int i = 1; i<=10; i++){
             System.out.println(n + " x " + i + " = " + n*i );
-        }*/
+        }
+/*
        var booleanValue = true;
        var byteVlue = 10;
        var shortValue = 20;
@@ -28,6 +29,7 @@ public class JavaLoopsI {
         System.out.println(doubleValue);
         System.out.println(charValue);
         System.out.println(stringValue);
+*/
 
 
     }

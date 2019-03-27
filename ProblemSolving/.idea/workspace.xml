@@ -2,10 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e7c98b2-88a9-4eec-9a1f-9d65b8d8ce74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/NGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPactices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPactices/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPactices/out/production/JavaPactices/JavaLoopsI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPactices/out/production/JavaPactices/JavaLoopsI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPactices/out/production/JavaPactices/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPactices/out/production/JavaPactices/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPactices/src/JavaLoopsI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPactices/src/JavaLoopsI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPactices/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPactices/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/BFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/BellmanFord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/BellmanFord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/Cylinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/Cylinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/D.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/DFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/Dijkstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/Dijkstra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/E.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/E.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/F.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/F.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/FibonaciNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/FibonaciNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/G.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/G.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/GraphForZeroOneBfs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/GraphForZeroOneBfs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/H.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/H.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/NGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/NGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/PriorityQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/PriorityQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/StronglyConnectedComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/StronglyConnectedComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/TestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/TopologicalSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/TopologicalSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/StronglyConnectedComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/StronglyConnectedComponent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -61,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/DFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="930">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,12 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/StronglyConnectedComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-              <folding>
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-860">
+              <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -131,8 +153,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/NGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="133" column="9" lean-forward="true" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
+            <state relative-caret-position="4061">
+              <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -209,6 +231,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,18 +255,17 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553274949608" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553492803206" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -380,6 +402,7 @@
       <workItem from="1553187148898" duration="3620000" />
       <workItem from="1553216445597" duration="751000" />
       <workItem from="1553257178751" duration="15339000" />
+      <workItem from="1553488671727" duration="4063000" />
     </task>
     <task id="LOCAL-00001" summary="ibnshayed">
       <created>1553262787794</created>
@@ -392,13 +415,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120802000" />
+    <option name="totallyTimeSpent" value="124865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3555437" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -408,8 +431,8 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32977587" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.34364995" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.55709714" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.06296691" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.17716116" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -607,6 +630,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/BellmanFord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1798">
@@ -618,6 +648,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1829">
           <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/DFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -651,23 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/TestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/DFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1736">
@@ -677,8 +700,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/NGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="133" column="9" lean-forward="true" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
+        <state relative-caret-position="4061">
+          <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -687,12 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/StronglyConnectedComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-          <folding>
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-860">
+          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -737,7 +756,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8.0_201</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
