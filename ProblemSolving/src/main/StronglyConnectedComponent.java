@@ -1,125 +1,90 @@
 package main;
 
 import java.util.*;
+import java.util.LinkedList;
 
-public class StronglyConnectedComponent {
-    private static int vertex;
-    private static LinkedList<Integer> adjLinkedList[];
-    private static LinkedList<Integer> reverseGraph[];
-    private static int[] visit;
-    public static Stack<Integer> stack;
-    public static int[][] sccGroupsList;
+public class StronglyConnectedComponent
+{
+    private int vertex; // No. of vertices
+    private LinkedList<Integer> mainGraph[]; //Adjacency List
+    private LinkedList<Integer> reversGraph[];
+    private Stack<Integer> stack;
+    private boolean visited[];
 
-
-    public StronglyConnectedComponent(int totalVertex) {
-        vertex = totalVertex;
-        adjLinkedList = new LinkedList[vertex];
-        reverseGraph = new LinkedList[vertex];
-        visit = new int[vertex];
+    public StronglyConnectedComponent(int totalVertex)
+    {
+        this.vertex = totalVertex;
+        mainGraph = new LinkedList[vertex];
+        reversGraph = new LinkedList[vertex];
         stack = new Stack<>();
-        sccGroupsList = new int[vertex][vertex];
+        visited = new boolean[vertex];
+        Arrays.fill(visited,false);
 
-        Arrays.fill(visit,0);
-        for (int i = 0; i<vertex; i++){
-            adjLinkedList[i] = new LinkedList<>();
-            reverseGraph[i] = new LinkedList<>();
+        for (int i = 0; i< vertex; ++i){
+            mainGraph[i] = new LinkedList<>();
+            reversGraph[i] = new LinkedList<>();
         }
+
+    }
+    void addEdge(int nodeOne, int nodeTwo) {
+        mainGraph[nodeOne].add(nodeTwo);
+        reversGraph[nodeTwo].add(nodeOne);
     }
 
-    public static void addDirectedEdge(int nodeOne,int nodeTwo){
-        adjLinkedList[nodeOne].add(nodeTwo);
-        reverseGraph[nodeTwo].add(nodeOne);
-    }
-
-    public static void getStack(int source){
-        visit[source] = 1;
-
-        for (Integer x : adjLinkedList[source]){
-            if(visit[x] == 0)
+    void getStack(int source)
+    {
+        visited[source] = true;
+        for(Integer x : mainGraph[source]){
+            if(!visited[x])
                 getStack(x);
         }
         stack.push(source);
-        visit[source] = 2;
-
     }
 
-    public static void DFS(int source){
-        visit[source] = 1;
+    void DFS(int source)
+    {
+        visited[source] = true;
+        System.out.print(source + " ");
 
-        for (Integer x : adjLinkedList[source]){
-            if(visit[x] == 0)
+        for (Integer x : reversGraph[source]){
+            if(!visited[x]){
                 DFS(x);
+            }
         }
-        visit[source] = 2;
-
     }
 
-    public static void getSCCGroup(){
-        int i = 0,j=0;
-        Arrays.fill(visit,0);
+    void printSCCs()
+    {
         getStack(0);
-        int currentNode;
-        while (!stack.empty()){
-            currentNode = stack.pop();
-            if(visit[currentNode] != 2){
-                continue;
+        Arrays.fill(visited,false);
+        while (!stack.empty())
+        {
+            int currentNode = stack.pop();
+
+            if (!visited[currentNode])
+            {
+                DFS(currentNode);
+                System.out.println();
             }
-            sccGroupsList[i][j++] = currentNode;
-            visit[currentNode] = 1;
-            for (Integer x : reverseGraph[currentNode]){
-                if(visit[x] == 0){
-                    visit[x] = 2;
-                    DFS(x);
-                    sccGroupsList[i][j++] = x;
-                }
-
-            }
-            visit[currentNode] = 2;
-            i++;
-            j = 0;
-
         }
-        for (int m = 0; m<vertex; m++){
-            for (int n = 0; n<vertex; n++)
-                System.out.print(sccGroupsList[m][n] + " ");
-            System.out.println();
-        }
-
     }
 
-    public static void main(String[] args) {
-        int totalVertex = 8;
-       StronglyConnectedComponent scc = new StronglyConnectedComponent(totalVertex);
+    public static void main(String args[])
+    {
+        int tolalVertex = 8;
+        StronglyConnectedComponent g = new StronglyConnectedComponent(tolalVertex);
+        g.addEdge(0,1);
+        g.addEdge(1,2);
+        g.addEdge(2,0);
+        g.addEdge(2,3);
+        g.addEdge(3,4);
+        g.addEdge(4,5);
+        g.addEdge(5,6);
+        g.addEdge(6,4);
+        g.addEdge(6,7);
 
-        addDirectedEdge(0,1);
-        addDirectedEdge(1,2);
-        addDirectedEdge(2,0);
-        addDirectedEdge(2,3);
-        addDirectedEdge(3,4);
-        addDirectedEdge(4,5);
-        addDirectedEdge(5,6);
-        addDirectedEdge(6,4);
-        addDirectedEdge(6,7);
-
-        for(int i = 0; i<totalVertex; i++){
-            System.out.print(i + " has child node : ");
-            for(Integer x : adjLinkedList[i])
-                System.out.print(x + " ");
-            System.out.println();
-        }
-        System.out.println("Reverse Graph : ");
-
-        for(int i = 0; i<totalVertex; i++){
-            System.out.print(i + " has child node : ");
-            for(Integer x : reverseGraph[i])
-                System.out.print(x + " ");
-            System.out.println();
-        }
-        getStack(0);
-
-        System.out.println(stack);
-        System.out.println("SCC Groups :");
-        getSCCGroup();
-
+        System.out.println("Following are strongly connected components in given graph ");
+        g.printSCCs();
     }
 }
+

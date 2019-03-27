@@ -53,7 +53,7 @@ public class BellmanFord {
                 break;
             }
             if(k == order.length - 1 && changeValue > 0) {
-                System.out.println("This Graph has negetive value on edge.");
+                System.out.println("This GraphOne has negetive value on edge.");
                 break;
             }
         }

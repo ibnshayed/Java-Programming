@@ -2,37 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e7c98b2-88a9-4eec-9a1f-9d65b8d8ce74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../JavaPactices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPactices/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPactices/out/production/JavaPactices/JavaLoopsI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPactices/out/production/JavaPactices/JavaLoopsI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPactices/out/production/JavaPactices/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPactices/out/production/JavaPactices/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPactices/src/JavaLoopsI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPactices/src/JavaLoopsI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPactices/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPactices/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/BFS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/BellmanFord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/BellmanFord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/C.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/Cylinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/Cylinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/D.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/DFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/Dijkstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/Dijkstra.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/E.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/E.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/F.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/F.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/FibonaciNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/FibonaciNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/G.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/G.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/GraphForZeroOneBfs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/GraphForZeroOneBfs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/H.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/H.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/NGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/NGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/PriorityQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/PriorityQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/Graph.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/StronglyConnectedComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/StronglyConnectedComponent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/TestCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/main/TopologicalSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/main/TopologicalSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BellmanFord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BellmanFord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GraphOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GraphForZeroOneBfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GraphForZeroOneBfs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/StronglyConnectedComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/StronglyConnectedComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TestCase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,17 +39,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/TestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/BellmanFord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1798">
-              <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+            <state relative-caret-position="227">
+              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#246#267#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,8 +73,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/StronglyConnectedComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-860">
-              <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+            <state relative-caret-position="-124">
+              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#StronglyConnectedComponent#0;class#StronglyConnectedComponent#0" />
+                <element signature="method#addEdge#0;class#Graph#0" />
+                <element signature="method#getStack#0;class#Graph#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/GraphForZeroOneBfs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1364">
-              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+            <state relative-caret-position="-780">
+              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,7 +122,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Graph.java">
+        <entry file="file://$PROJECT_DIR$/src/main/GraphOne.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1736">
               <caret line="56" selection-start-line="56" selection-end-line="56" />
@@ -180,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/GraphForZeroOneBfs.java" />
         <option value="$PROJECT_DIR$/src/main/GraphForDijkstra.java" />
         <option value="$PROJECT_DIR$/src/main/FibonaciNumber.java" />
         <option value="$PROJECT_DIR$/src/main/PriorityQ.java" />
@@ -196,7 +175,6 @@
         <option value="$USER_HOME$/Desktop/Test.java" />
         <option value="D:/Test.java" />
         <option value="$PROJECT_DIR$/src/main/New.java" />
-        <option value="$PROJECT_DIR$/src/main/Graph.java" />
         <option value="$PROJECT_DIR$/src/main/BFS.java" />
         <option value="$PROJECT_DIR$/src/main/Circle.java" />
         <option value="$PROJECT_DIR$/src/main/Cylinder.java" />
@@ -209,10 +187,14 @@
         <option value="$PROJECT_DIR$/src/main/G.java" />
         <option value="$PROJECT_DIR$/src/main/H.java" />
         <option value="$PROJECT_DIR$/src/main/E.java" />
-        <option value="$PROJECT_DIR$/src/main/TestCase.java" />
         <option value="$PROJECT_DIR$/src/main/JavaOutputFormatting.java" />
         <option value="$PROJECT_DIR$/src/main/DFS.java" />
         <option value="$PROJECT_DIR$/src/main/NGraph.java" />
+        <option value="$PROJECT_DIR$/src/main/GraphForZeroOneBfs.java" />
+        <option value="$PROJECT_DIR$/src/main/TestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/SCCG.java" />
+        <option value="$PROJECT_DIR$/src/main/GraphOne.java" />
+        <option value="$PROJECT_DIR$/src/main/Graph.java" />
         <option value="$PROJECT_DIR$/src/main/StronglyConnectedComponent.java" />
       </list>
     </option>
@@ -231,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,12 +236,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553492803206" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553705258372" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -297,8 +279,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaOutputFormatting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.JavaOutputFormatting" />
+    <configuration name="NGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.NGraph" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -310,8 +292,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.NGraph" />
+    <configuration name="StronglyConnectedComponent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.StronglyConnectedComponent" />
       <module name="ProblemSolving" />
       <extension name="coverage">
         <pattern>
@@ -352,10 +334,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.StronglyConnectedComponent" />
+        <item itemvalue="Application.StronglyConnectedComponent" />
+        <item itemvalue="Application.TestCase" />
         <item itemvalue="Application.NGraph" />
         <item itemvalue="Application.DFS" />
-        <item itemvalue="Application.JavaOutputFormatting" />
-        <item itemvalue="Application.TestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -403,6 +385,7 @@
       <workItem from="1553216445597" duration="751000" />
       <workItem from="1553257178751" duration="15339000" />
       <workItem from="1553488671727" duration="4063000" />
+      <workItem from="1553695316903" duration="9958000" />
     </task>
     <task id="LOCAL-00001" summary="ibnshayed">
       <created>1553262787794</created>
@@ -415,13 +398,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124865000" />
+    <option name="totallyTimeSpent" value="134823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2889126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -431,15 +413,15 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32977587" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.06296691" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.17716116" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.0715048" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21985058" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.10702341" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.2678762" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.13660619" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -630,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/TestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/BellmanFord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1798">
@@ -671,16 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/GraphForZeroOneBfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/F.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -688,13 +653,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1736">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>
@@ -708,10 +666,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/OpenJDK-11.0.2/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/SCCG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/GraphOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1736">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/GraphForZeroOneBfs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="64" column="37" lean-forward="true" selection-end-line="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Graph#0;class#Graph#0" />
+            <element signature="method#addEdge#0;class#Graph#0" />
+            <element signature="method#getStack#0;class#Graph#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/StronglyConnectedComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-860">
-          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+        <state relative-caret-position="-124">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#StronglyConnectedComponent#0;class#StronglyConnectedComponent#0" />
+            <element signature="method#addEdge#0;class#Graph#0" />
+            <element signature="method#getStack#0;class#Graph#0" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -2,12 +2,12 @@ package main;
 
 import java.util.*;
 
-public class Graph {
+public class GraphOne {
     private static int V;
     private static int cost[];
     private static Vector<Integer> adjListArray[];
 
-    public Graph(int V) {
+    public GraphOne(int V) {
         this.V = V;
         adjListArray = new Vector[V];
 
@@ -63,7 +63,7 @@ public class Graph {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int v = 6;
-        Graph graph = new Graph(v);
+        GraphOne graph = new GraphOne(v);
 
         addEdge(0, 1);
         addEdge(1, 2);

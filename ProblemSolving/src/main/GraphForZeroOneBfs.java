@@ -42,21 +42,21 @@ public class GraphForZeroOneBfs {
         while (!deque.isEmpty()) {
             currentNode = deque.poll();
 
-            if(!visit[currentNode]){
+            if (!visit[currentNode]) {
                 visit[currentNode] = true;
                 for (Integer x : adjListArray[currentNode]) {
 
-                        if (costBetweenNode[currentNode][x] == minCost)
-                            deque.addFirst(x);
-                        else deque.addLast(x);
+                    if (costBetweenNode[currentNode][x] == minCost)
+                        deque.addFirst(x);
+                    else deque.addLast(x);
 
-                            tempCost = cost[currentNode] + costBetweenNode[currentNode][x];
+                    tempCost = cost[currentNode] + costBetweenNode[currentNode][x];
 
-                            if (cost[x] > tempCost){
+                    if (cost[x] > tempCost) {
 
-                                cost[x] = tempCost;
+                        cost[x] = tempCost;
 
-                            }
+                    }
                 }
 
             }
