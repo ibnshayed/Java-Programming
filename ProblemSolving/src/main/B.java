@@ -8,21 +8,21 @@ public class B {
         Scanner in = new Scanner(System.in);
         int whhite = 1000;
         int purple = 2000;
-        int blue  = 3000;
+        int blue = 3000;
 
         String s = in.next();
 
-        long a = Long.parseLong(s,2);
+        long a = Long.parseLong(s, 2);
         long absdiff = Math.abs(blue - a);
-        if(a == blue)
+        if (a == blue)
             System.out.println("Blue");
-        else if(absdiff <= 500 && isPrime(a))
+        else if (absdiff <= 500 && isPrime(a))
             System.out.println("Almost Blue");
 
-            else System.out.println("Eh!");
+        else System.out.println("Eh!");
     }
-    public static boolean isPrime(long n)
-    {
+
+    public static boolean isPrime(long n) {
         if (n <= 1)
             return false;
 

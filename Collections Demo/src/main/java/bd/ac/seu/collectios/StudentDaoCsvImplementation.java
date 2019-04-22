@@ -6,23 +6,24 @@ import java.io.RandomAccessFile;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentDaoCsvImplementation implements StudentDao{
+public class StudentDaoCsvImplementation implements StudentDao {
     private List<Student> studentList;
+
     @Override
     public List<Student> getAllStudent() {
 
         studentList = new ArrayList<>();
 
-        try(RandomAccessFile input = new RandomAccessFile("Students.csv","r")){
+        try (RandomAccessFile input = new RandomAccessFile("Students.csv", "r")) {
             input.readLine();
             String line;
 
 
-            while((line = input.readLine()) != null){
+            while ((line = input.readLine()) != null) {
                 int commaIndex = line.indexOf(",");
-                String id = line.substring(0,commaIndex);
-                String name = line.substring(commaIndex+2,line.length() - 1);
-                Student student = new Student(Integer.parseInt(id),name);
+                String id = line.substring(0, commaIndex);
+                String name = line.substring(commaIndex + 2, line.length() - 1);
+                Student student = new Student(Integer.parseInt(id), name);
                 studentList.add(student);
             }
 
@@ -44,8 +45,6 @@ public class StudentDaoCsvImplementation implements StudentDao{
         }
             return null;
     }*/
-
-
 
 
 }

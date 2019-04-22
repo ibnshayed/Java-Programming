@@ -1,32 +1,32 @@
 package main;
 
 // Java implementation of Kosaraju's algorithm to print all SCCs
+
 import java.io.*;
 import java.util.*;
 import java.util.LinkedList;
 
 // This class represents a directed graph using adjacency list
 // representation
-public class NGraph
-{
+public class NGraph {
     private static int V; // No. of vertices
     private static LinkedList<Integer> adj[]; //Adjacency List
 
     //Constructor
-    public NGraph(int v)
-    {
+    public NGraph(int v) {
         V = v;
         adj = new LinkedList[v];
-        for (int i=0; i<v; ++i)
+        for (int i = 0; i < v; ++i)
             adj[i] = new LinkedList();
     }
 
     //Function to add an edge into the graph
-    public void addEdge(int v, int w) { adj[v].add(w); }
+    public void addEdge(int v, int w) {
+        adj[v].add(w);
+    }
 
     // A recursive function to print DFS starting from v
-    public void DFSUtil(int v,boolean visited[])
-    {
+    public void DFSUtil(int v, boolean visited[]) {
         // Mark the current node as visited and print it
         visited[v] = true;
         System.out.print(v + " ");
@@ -34,40 +34,35 @@ public class NGraph
         int n;
 
         // Recur for all the vertices adjacent to this vertex
-        Iterator<Integer> i =adj[v].iterator();
-        while (i.hasNext())
-        {
+        Iterator<Integer> i = adj[v].iterator();
+        while (i.hasNext()) {
             n = i.next();
             if (!visited[n])
-                DFSUtil(n,visited);
+                DFSUtil(n, visited);
         }
     }
 
     // Function that returns reverse (or transpose) of this graph
-    public NGraph getTranspose()
-    {
+    public NGraph getTranspose() {
         NGraph g = new NGraph(V);
-        for (int v = 0; v < V; v++)
-        {
+        for (int v = 0; v < V; v++) {
             // Recur for all the vertices adjacent to this vertex
-            Iterator<Integer> i =adj[v].listIterator();
-            while(i.hasNext())
+            Iterator<Integer> i = adj[v].listIterator();
+            while (i.hasNext())
                 g.adj[i.next()].add(v);
         }
         return g;
     }
 
-    public void fillOrder(int v, boolean visited[], Stack stack)
-    {
+    public void fillOrder(int v, boolean visited[], Stack stack) {
         // Mark the current node as visited and print it
         visited[v] = true;
 
         // Recur for all the vertices adjacent to this vertex
         Iterator<Integer> i = adj[v].iterator();
-        while (i.hasNext())
-        {
+        while (i.hasNext()) {
             int n = i.next();
-            if(!visited[n])
+            if (!visited[n])
                 fillOrder(n, visited, stack);
         }
 
@@ -78,13 +73,12 @@ public class NGraph
 
     // The main function that finds and prints all strongly
     // connected components
-    public void printSCCs()
-    {
+    public void printSCCs() {
         Stack stack = new Stack();
 
         // Mark all the vertices as not visited (For first DFS)
         boolean visited[] = new boolean[V];
-        for(int i = 0; i < V; i++)
+        for (int i = 0; i < V; i++)
             visited[i] = false;
 
         // Fill vertices in stack according to their finishing
@@ -101,14 +95,12 @@ public class NGraph
             visited[i] = false;
 
         // Now process all vertices in order defined by Stack
-        while (stack.empty() == false)
-        {
+        while (stack.empty() == false) {
             // Pop a vertex from stack
-            int v = (int)stack.pop();
+            int v = (int) stack.pop();
 
             // Print Strongly connected component of the popped vertex
-            if (visited[v] == false)
-            {
+            if (visited[v] == false) {
                 gr.DFSUtil(v, visited);
                 System.out.println();
             }
@@ -116,8 +108,7 @@ public class NGraph
     }
 
     // Driver method
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         // Create a graph given in the above diagram
         NGraph g = new NGraph(5);
         g.addEdge(1, 0);
@@ -126,20 +117,20 @@ public class NGraph
         g.addEdge(0, 3);
         g.addEdge(3, 4);
 
-        for(int i = 0; i<5; i++){
+        for (int i = 0; i < 5; i++) {
             System.out.print(i + " has child node : ");
-            for(Integer x : adj[i])
+            for (Integer x : adj[i])
                 System.out.print(x + " ");
             System.out.println();
         }
-         g = g.getTranspose();
-        for(int i = 0; i<5; i++){
+        g = g.getTranspose();
+        for (int i = 0; i < 5; i++) {
             System.out.print(i + " has child node : ");
-            for(Integer x : g.adj[i])
+            for (Integer x : g.adj[i])
                 System.out.print(x + " ");
             System.out.println();
         }
-        System.out.println("Following are strongly connected components "+
+        System.out.println("Following are strongly connected components " +
                 "in given graph ");
         g.printSCCs();
     }

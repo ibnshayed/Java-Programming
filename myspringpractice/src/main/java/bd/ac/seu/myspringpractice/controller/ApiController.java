@@ -17,13 +17,13 @@ public class ApiController {
     private List<Bus> list;
 
     @RequestMapping(value = "allbus")
-    public List<Bus> getAllBuses(){
+    public List<Bus> getAllBuses() {
 
         return busRepository.findAll();
     }
 
     @RequestMapping(value = "bus/{id}")
-    public Bus getABus(@PathVariable String id){
+    public Bus getABus(@PathVariable String id) {
         return busRepository.findById(id).orElse(null);
     }
 }

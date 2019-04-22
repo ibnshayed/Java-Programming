@@ -21,8 +21,8 @@ public class Application {
     }
 
     @Bean
-    CommandLineRunner runner(){
-        return args->{
+    CommandLineRunner runner() {
+        return args -> {
             /*List<Student> studentList = studentRepository.findAll();
             studentList.forEach(System.out::println);*/
             System.out.println(studentRepository.findById("1002").orElse(null));

@@ -13,14 +13,14 @@ import java.util.stream.Collectors;
 
 
 public class main {
-    public  main(){
+    public main() {
 
         StudentServices studentServices = new StudentServices();
 
         List<Student> maleStudentList = new ArrayList<>();
         maleStudentList = studentServices.getStudentSet()
                 .parallelStream()
-                .filter(Student -> Student.getSex() == Sex.Female )
+                .filter(Student -> Student.getSex() == Sex.Female)
                 .collect(Collectors.toList());
         maleStudentList.forEach(System.out::println);
 
@@ -44,6 +44,7 @@ public class main {
         }*/
 
     }
+
     public static void main(String[] args) {
         new main();
     }

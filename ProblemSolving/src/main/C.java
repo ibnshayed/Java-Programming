@@ -12,16 +12,15 @@ public class C {
 
 
     }
-    public static int squareFree(int n)
-    {
+
+    public static int squareFree(int n) {
         int cnt = 0;
 
         for (int i = 1; ; i++) {
 
             boolean isSqFree = true;
 
-            for (int j = 2; j * j <= i; j++)
-            {
+            for (int j = 2; j * j <= i; j++) {
 
                 if (i % (j * j) == 0) {
                     isSqFree = false;

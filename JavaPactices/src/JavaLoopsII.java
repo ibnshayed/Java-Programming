@@ -19,17 +19,16 @@ public class JavaLoopsII {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int t = in.nextInt();
-        for(int i = 1; i<= t ; i++){
+        for (int i = 1; i <= t; i++) {
             int a = in.nextInt();
             int b = in.nextInt();
             int n = in.nextInt();
             int result = 0;
-            for(int j = 0; j<n; j++){
+            for (int j = 0; j < n; j++) {
 
-                if(j>0){
-                    result += (int)Math.pow(2,j) *b;
-                }
-                else result = a + (int)Math.pow(2,j) * b;
+                if (j > 0) {
+                    result += (int) Math.pow(2, j) * b;
+                } else result = a + (int) Math.pow(2, j) * b;
 
                 System.out.print(result + " ");
 

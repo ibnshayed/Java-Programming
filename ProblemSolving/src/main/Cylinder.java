@@ -1,6 +1,6 @@
 package main;
 
-public class Cylinder extends Circle{
+public class Cylinder extends Circle {
     private double height;
 
     public Cylinder() {
@@ -28,7 +28,7 @@ public class Cylinder extends Circle{
         this.height = hight;
     }
 
-    public double getVolum(){
-        return Math.PI * Math.pow(getRadious(),2) * height;
+    public double getVolum() {
+        return Math.PI * Math.pow(getRadious(), 2) * height;
     }
 }

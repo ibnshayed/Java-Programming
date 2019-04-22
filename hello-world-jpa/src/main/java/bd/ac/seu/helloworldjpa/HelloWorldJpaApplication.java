@@ -19,15 +19,15 @@ public class HelloWorldJpaApplication {
     }
 
     @Bean
-    CommandLineRunner runner(){
+    CommandLineRunner runner() {
         return args -> {
 
            /* Student student = new Student("1002","Akram Chowdhury",3.87);
             studentRepository.save(student);*/
 
-           //studentRepository.findAll().forEach(System.out::println);
-           //System.out.println(studentRepository.findById("1001"));
-           System.out.println(studentRepository.findByStudentName("Shakila Chowdhury"));
+            //studentRepository.findAll().forEach(System.out::println);
+            //System.out.println(studentRepository.findById("1001"));
+            System.out.println(studentRepository.findByStudentName("Shakila Chowdhury"));
 
 
         };

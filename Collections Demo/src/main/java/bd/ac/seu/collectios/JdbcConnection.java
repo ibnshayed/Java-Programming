@@ -8,7 +8,7 @@ public class JdbcConnection {
     private static JdbcConnection instance = new JdbcConnection();
     private static Connection connection;
 
-    private JdbcConnection(){
+    private JdbcConnection() {
         connection = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -17,7 +17,7 @@ public class JdbcConnection {
             final String USERNAME = "ibnshayed";
             final String PASSWORD = "420420";
 
-            connection = DriverManager.getConnection(DBURL,USERNAME,PASSWORD);
+            connection = DriverManager.getConnection(DBURL, USERNAME, PASSWORD);
             //System.out.println("Connection Successful");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
@@ -26,7 +26,7 @@ public class JdbcConnection {
         }
     }
 
-    public static Connection getConnection(){
+    public static Connection getConnection() {
         return connection;
     }
 

@@ -7,8 +7,9 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CourseDaoMysqlImplementation implements CourseDao{
+public class CourseDaoMysqlImplementation implements CourseDao {
     private List<Course> courseList;
+
     @Override
     public List<Course> getAllCourse() {
         try {
@@ -18,12 +19,12 @@ public class CourseDaoMysqlImplementation implements CourseDao{
             ResultSet resultSet = statement.executeQuery(query);
 
             courseList = new ArrayList<>();
-            while(resultSet.next()){
+            while (resultSet.next()) {
                 String courseCode = resultSet.getString("courseCode");
                 String courseTitle = resultSet.getString("courseTitle");
                 double credits = resultSet.getDouble("credits");
 
-                Course course = new Course(courseCode,courseTitle,credits);
+                Course course = new Course(courseCode, courseTitle, credits);
                 //System.out.println(student);
                 courseList.add(course);
             }

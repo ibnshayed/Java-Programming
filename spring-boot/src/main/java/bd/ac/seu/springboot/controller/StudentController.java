@@ -12,14 +12,14 @@ public class StudentController {
     private StudentRepository studentRepository;
 
     @RequestMapping(value = "/home")
-    public String getSomething(){
+    public String getSomething() {
         return "Welcome Bangladesh";
     }
 
     @RequestMapping(value = "/students")
-    public String getAllStudents(Model model){
-        model.addAttribute("studentCount",studentRepository.count());
-        model.addAttribute("students",studentRepository.findAll());
+    public String getAllStudents(Model model) {
+        model.addAttribute("studentCount", studentRepository.count());
+        model.addAttribute("students", studentRepository.findAll());
         return "students";
     }
 

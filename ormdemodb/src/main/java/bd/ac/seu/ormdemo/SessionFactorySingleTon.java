@@ -7,12 +7,13 @@ public class SessionFactorySingleTon {
     private final static SessionFactorySingleTon instance = new SessionFactorySingleTon();
     private static SessionFactory sessionFactory;
 
-    private SessionFactorySingleTon(){
+    private SessionFactorySingleTon() {
         sessionFactory = new Configuration()
                 .configure("hibernate.cfg.xml")
                 .buildSessionFactory();
     }
-    public static SessionFactory getSessionFactory(){
+
+    public static SessionFactory getSessionFactory() {
         return sessionFactory;
     }
 }

@@ -5,7 +5,5 @@ public class C {
         Scanner in = new Scanner(System.in);
 
 
-
-
     }
 }

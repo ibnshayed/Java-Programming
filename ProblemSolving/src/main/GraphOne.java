@@ -32,7 +32,8 @@ public class GraphOne {
         }
 
     }
-    public static void BFS(int sourceNode){
+
+    public static void BFS(int sourceNode) {
         boolean visit[] = new boolean[V];
         Queue<Integer> queue = new LinkedList<>();
         ArrayList<Integer> bfs = new ArrayList<>();
@@ -42,12 +43,12 @@ public class GraphOne {
         queue.add(sourceNode);
 
 
-        while (!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             currentNode = queue.poll();
             bfs.add(currentNode);
 
-            for (Integer x : adjListArray[currentNode]){
-                if(!visit[x]){
+            for (Integer x : adjListArray[currentNode]) {
+                if (!visit[x]) {
                     visit[x] = true;
                     queue.add(x);
                 }
@@ -77,7 +78,7 @@ public class GraphOne {
 
         displayGraph();
         BFS(0);
-        }
-
     }
+
+}
 

@@ -32,7 +32,8 @@ public class BFS {
         }
 
     }
-    public static void BFSOnAction(int sourceNode){
+
+    public static void BFSOnAction(int sourceNode) {
         boolean visit[] = new boolean[V];
         Queue<Integer> queue = new LinkedList<>();
         ArrayList<Integer> bfs = new ArrayList<>();
@@ -42,12 +43,12 @@ public class BFS {
         queue.add(sourceNode);
 
 
-        while (!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             currentNode = queue.poll();
             bfs.add(currentNode);
 
-            for (Integer x : adjListArray[currentNode]){
-                if(!visit[x]){
+            for (Integer x : adjListArray[currentNode]) {
+                if (!visit[x]) {
                     visit[x] = true;
                     queue.add(x);
                 }

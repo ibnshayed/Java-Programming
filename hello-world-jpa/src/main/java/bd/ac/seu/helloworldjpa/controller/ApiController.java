@@ -14,7 +14,7 @@ public class ApiController {
     private StudentRepository studentRepository;
 
     @RequestMapping(value = "student/{id}")
-    public Student getOneStudent(@PathVariable String id){
+    public Student getOneStudent(@PathVariable String id) {
         return studentRepository.findById(id).orElse(null);
     }
 }

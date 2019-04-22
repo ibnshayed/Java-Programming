@@ -8,14 +8,14 @@ public class A {
 
         Scanner in = new Scanner(System.in);
         int testCase = in.nextInt();
-        for(int i = 1; i<=testCase; i++){
+        for (int i = 1; i <= testCase; i++) {
             String s1 = in.next();
             String s2 = in.next();
-            s1 = s1.replace(".","");
-            s2 = s2.replace(".","");
+            s1 = s1.replace(".", "");
+            s2 = s2.replace(".", "");
             long a = Long.parseLong(s1);
             long b = Long.parseLong(s2);
-            System.out.println(a*b);
+            System.out.println(a * b);
 
         }
 

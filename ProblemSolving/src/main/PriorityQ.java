@@ -19,7 +19,7 @@ public class PriorityQ {
         while (!priorityQueue.isEmpty()) {
             System.out.println(priorityQueue.remove());
         }
-        if(priorityQueue.isEmpty())
+        if (priorityQueue.isEmpty())
             System.out.println("true");
     }
 }

@@ -1,11 +1,12 @@
 package bd.ac.seu.collectios;
+
 import java.util.List;
 
 public class main {
     private List<Student> studentList;
     private List<Course> courseList;
 
-    public main(){
+    public main() {
         StudentDao studentDao = new StudentDaoMysqlImplementation();
         //StudentDao studentDao = new StudentDaoCsvImplementation();
         studentList = studentDao.getAllStudent();
@@ -34,6 +35,7 @@ public class main {
 
 
     }
+
     public static void main(String[] args) {
         new main();
     }

@@ -28,7 +28,7 @@ public class MyspringpracticeApplication {
     }
 
     @Bean
-    CommandLineRunner runner(){
+    CommandLineRunner runner() {
         return args -> {
 /*
             List<Bus> passengerList = busRepository.findAll();

@@ -5,7 +5,7 @@ public class JavaEndOfFile {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner in = new Scanner(System.in);
         int i = 1;
-        while(in.hasNextLine()){
+        while (in.hasNextLine()) {
             System.out.println(i + " " + in.nextLine());
             i++;
         }

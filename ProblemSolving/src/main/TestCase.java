@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class TestCase {
     public static void main(String[] args) {
         /*Declaring 2D ArrayList*/
-        ArrayList<ArrayList<Integer> > x
-                = new ArrayList<ArrayList<Integer> >();
+        ArrayList<ArrayList<Integer>> x
+                = new ArrayList<ArrayList<Integer>>();
 
         /*one space allocated for 0th row*/
         x.add(new ArrayList<Integer>());

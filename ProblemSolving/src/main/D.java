@@ -11,7 +11,7 @@ public class D {
         System.out.println(another);
     }
 
-    static int  computeAnother(String equation) {
+    static int computeAnother(String equation) {
         int result = 0;
         String noMinus = equation.replace("-", "+-");
         String[] byPluses = noMinus.split("\\+");

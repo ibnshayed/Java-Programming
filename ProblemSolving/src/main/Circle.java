@@ -31,8 +31,9 @@ public class Circle {
     public void setColor(String color) {
         this.color = color;
     }
-    public double getArea(){
-        return Math.PI * Math.pow(radious,2);
+
+    public double getArea() {
+        return Math.PI * Math.pow(radious, 2);
     }
 
     @Override

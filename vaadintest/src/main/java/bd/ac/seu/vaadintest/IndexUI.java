@@ -14,7 +14,7 @@ public class IndexUI extends UI {
     Label greeting = new Label("Hello stranger");
 
 textField.addValueChangeListener(event ->
-            greeting.setText("Hello " + event.getValue()));
+            greeting.setText("Hello "+event.getValue()));
 
     VerticalLayout layout = new VerticalLayout(textField, greeting);
 }

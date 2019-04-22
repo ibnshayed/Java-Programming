@@ -1,4 +1,4 @@
-public class A extends B{
+public class A extends B {
 
     @Override
     public void print() {

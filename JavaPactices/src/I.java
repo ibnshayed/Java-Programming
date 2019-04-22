@@ -9,12 +9,12 @@ public class I {
         short b = in.nextShort();
         short s = in.nextShort();
 
-        short newn = (short)(n - 2);
+        short newn = (short) (n - 2);
 
         int temp1 = newn * b;
-        int temp2 = s - (a+b);
+        int temp2 = s - (a + b);
 
-        if(temp1 >= temp2)
+        if (temp1 >= temp2)
             System.out.println("YES");
         else System.out.println("NO");
 

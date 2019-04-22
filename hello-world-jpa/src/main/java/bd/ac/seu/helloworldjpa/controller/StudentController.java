@@ -17,32 +17,31 @@ public class StudentController {
     private StudentRepository studentRepository;
 
     @RequestMapping(value = "/")
-    public String handleIndex(){
+    public String handleIndex() {
         return "Hello";
     }
 
     @RequestMapping(value = "/test")
-    public String hanldeIndexWithName(@RequestParam String name){
+    public String hanldeIndexWithName(@RequestParam String name) {
         return "Hello, " + name + "!";
     }
 
     @RequestMapping(value = "/students")
-    public String getAllStudent(Model model){
-        model.addAttribute("students",studentRepository.findAll());
+    public String getAllStudent(Model model) {
+        model.addAttribute("students", studentRepository.findAll());
         return "students";
     }
 
     @RequestMapping(value = "/student")
-    public Student getOneStudent(@RequestParam String id)
-    {
+    public Student getOneStudent(@RequestParam String id) {
         return studentRepository.findById(id).orElse(null);
     }
 
     @RequestMapping(value = "insert_student")
     public String addAStudent(@RequestParam String id,
                               @RequestParam String name,
-                              @RequestParam double cgpa){
-        Student student = new Student(id,name,cgpa);
+                              @RequestParam double cgpa) {
+        Student student = new Student(id, name, cgpa);
         studentRepository.save(student);
         return "Successfully inserted a new Student = " + name;
     }
